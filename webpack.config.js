@@ -31,7 +31,7 @@ const config /** @type { import('webpack').Configuration } */ = {
                 test: /\.ts$/,
                 use: 'ts-loader',
                 exclude: /node_modules/,
-              }, 
+            },
             {
                 test: /\.css$/,
                 use: [{ loader: MiniCssExtractPlugin.loader }, 'css-loader']
